@@ -146,7 +146,7 @@ static NSString *CellIdentifier = @"Cell";
     UIImageView *iView = [[UIImageView alloc] initWithImage: img];
     iView.tag = IMAGE_VIEW_TAG;
     iView.frame = imgFrame;
-    [thisView addSubview: iView];
+    [thisView addSubview: iView]; 
     
     UILabel *movieInfoLabel = [[UILabel alloc]
                                initWithFrame:CGRectMake(IMAGE_WIDTH + 2 * 10, 5,
