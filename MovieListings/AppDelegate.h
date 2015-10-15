@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "theaterTableViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

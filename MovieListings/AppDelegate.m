@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    theaterTableViewController *tvc = [[theaterTableViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:tvc];
+    [self.window setRootViewController:nc];
     return YES;
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D36797D1AC0893F00940E3F /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36797C1AC0893F00940E3F /* Movie.m */; };
+		4D3679801AC08BBA00940E3F /* MoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D36797F1AC08BBA00940E3F /* MoviesTableViewController.m */; };
+		4D3679831AC08BDA00940E3F /* MoviesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3679821AC08BDA00940E3F /* MoviesDataSource.m */; };
+		4D3679861AC08F3C00940E3F /* MoviesDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3679851AC08F3C00940E3F /* MoviesDetailedViewController.m */; };
 		4D8FBFE41AB2639900D715D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FBFE31AB2639900D715D4 /* main.m */; };
 		4D8FBFE71AB2639900D715D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FBFE61AB2639900D715D4 /* AppDelegate.m */; };
 		4D8FBFEA1AB2639900D715D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FBFE91AB2639900D715D4 /* ViewController.m */; };
@@ -14,6 +18,11 @@
 		4D8FBFEF1AB2639900D715D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FBFEE1AB2639900D715D4 /* Images.xcassets */; };
 		4D8FBFF21AB2639900D715D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FBFF01AB2639900D715D4 /* LaunchScreen.xib */; };
 		4D8FBFFE1AB2639900D715D4 /* MovieListingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FBFFD1AB2639900D715D4 /* MovieListingsTests.m */; };
+		4D8FC0091AB263CF00D715D4 /* DownloadAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FC0081AB263CF00D715D4 /* DownloadAssistant.m */; };
+		4DD8B1EC1ABF577F00A478AB /* theaters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8B1EB1ABF577F00A478AB /* theaters.m */; };
+		4DD8B1EF1ABF70A500A478AB /* theatersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8B1EE1ABF70A500A478AB /* theatersDataSource.m */; };
+		4DD8B1F21ABF878500A478AB /* theaterDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8B1F11ABF878500A478AB /* theaterDetailedViewController.m */; };
+		4DD8B1FE1ABF8AFF00A478AB /* theaterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8B1FD1ABF8AFF00A478AB /* theaterTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D36797B1AC0893F00940E3F /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		4D36797C1AC0893F00940E3F /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		4D36797E1AC08BBA00940E3F /* MoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewController.h; sourceTree = "<group>"; };
+		4D36797F1AC08BBA00940E3F /* MoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewController.m; sourceTree = "<group>"; };
+		4D3679811AC08BDA00940E3F /* MoviesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesDataSource.h; sourceTree = "<group>"; };
+		4D3679821AC08BDA00940E3F /* MoviesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesDataSource.m; sourceTree = "<group>"; };
+		4D3679841AC08F3C00940E3F /* MoviesDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesDetailedViewController.h; sourceTree = "<group>"; };
+		4D3679851AC08F3C00940E3F /* MoviesDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesDetailedViewController.m; sourceTree = "<group>"; };
 		4D8FBFDE1AB2639900D715D4 /* MovieListings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieListings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FBFE21AB2639900D715D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8FBFE31AB2639900D715D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,16 @@
 		4D8FBFF71AB2639900D715D4 /* MovieListingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieListingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8FBFFC1AB2639900D715D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8FBFFD1AB2639900D715D4 /* MovieListingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListingsTests.m; sourceTree = "<group>"; };
+		4D8FC0071AB263CF00D715D4 /* DownloadAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadAssistant.h; sourceTree = "<group>"; };
+		4D8FC0081AB263CF00D715D4 /* DownloadAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadAssistant.m; sourceTree = "<group>"; };
+		4DD8B1EA1ABF577F00A478AB /* theaters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theaters.h; sourceTree = "<group>"; };
+		4DD8B1EB1ABF577F00A478AB /* theaters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theaters.m; sourceTree = "<group>"; };
+		4DD8B1ED1ABF70A500A478AB /* theatersDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theatersDataSource.h; sourceTree = "<group>"; };
+		4DD8B1EE1ABF70A500A478AB /* theatersDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theatersDataSource.m; sourceTree = "<group>"; };
+		4DD8B1F01ABF878500A478AB /* theaterDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theaterDetailedViewController.h; sourceTree = "<group>"; };
+		4DD8B1F11ABF878500A478AB /* theaterDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theaterDetailedViewController.m; sourceTree = "<group>"; };
+		4DD8B1FC1ABF8AFF00A478AB /* theaterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theaterTableViewController.h; sourceTree = "<group>"; };
+		4DD8B1FD1ABF8AFF00A478AB /* theaterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theaterTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +116,24 @@
 				4D8FBFEE1AB2639900D715D4 /* Images.xcassets */,
 				4D8FBFF01AB2639900D715D4 /* LaunchScreen.xib */,
 				4D8FBFE11AB2639900D715D4 /* Supporting Files */,
+				4D8FC0071AB263CF00D715D4 /* DownloadAssistant.h */,
+				4D8FC0081AB263CF00D715D4 /* DownloadAssistant.m */,
+				4DD8B1EA1ABF577F00A478AB /* theaters.h */,
+				4DD8B1EB1ABF577F00A478AB /* theaters.m */,
+				4DD8B1ED1ABF70A500A478AB /* theatersDataSource.h */,
+				4DD8B1EE1ABF70A500A478AB /* theatersDataSource.m */,
+				4DD8B1F01ABF878500A478AB /* theaterDetailedViewController.h */,
+				4DD8B1F11ABF878500A478AB /* theaterDetailedViewController.m */,
+				4DD8B1FC1ABF8AFF00A478AB /* theaterTableViewController.h */,
+				4DD8B1FD1ABF8AFF00A478AB /* theaterTableViewController.m */,
+				4D36797B1AC0893F00940E3F /* Movie.h */,
+				4D36797C1AC0893F00940E3F /* Movie.m */,
+				4D36797E1AC08BBA00940E3F /* MoviesTableViewController.h */,
+				4D36797F1AC08BBA00940E3F /* MoviesTableViewController.m */,
+				4D3679811AC08BDA00940E3F /* MoviesDataSource.h */,
+				4D3679821AC08BDA00940E3F /* MoviesDataSource.m */,
+				4D3679841AC08F3C00940E3F /* MoviesDetailedViewController.h */,
+				4D3679851AC08F3C00940E3F /* MoviesDetailedViewController.m */,
 			);
 			path = MovieListings;
 			sourceTree = "<group>";
@@ -219,9 +264,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD8B1EC1ABF577F00A478AB /* theaters.m in Sources */,
+				4D3679831AC08BDA00940E3F /* MoviesDataSource.m in Sources */,
+				4D8FC0091AB263CF00D715D4 /* DownloadAssistant.m in Sources */,
+				4DD8B1F21ABF878500A478AB /* theaterDetailedViewController.m in Sources */,
+				4DD8B1FE1ABF8AFF00A478AB /* theaterTableViewController.m in Sources */,
+				4D3679801AC08BBA00940E3F /* MoviesTableViewController.m in Sources */,
 				4D8FBFEA1AB2639900D715D4 /* ViewController.m in Sources */,
 				4D8FBFE71AB2639900D715D4 /* AppDelegate.m in Sources */,
+				4D36797D1AC0893F00940E3F /* Movie.m in Sources */,
+				4DD8B1EF1ABF70A500A478AB /* theatersDataSource.m in Sources */,
 				4D8FBFE41AB2639900D715D4 /* main.m in Sources */,
+				4D3679861AC08F3C00940E3F /* MoviesDetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +468,7 @@
 				4D8FC0031AB2639900D715D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8FC0041AB2639900D715D4 /* Build configuration list for PBXNativeTarget "MovieListingsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +477,7 @@
 				4D8FC0061AB2639900D715D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
